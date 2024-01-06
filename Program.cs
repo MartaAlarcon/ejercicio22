@@ -22,6 +22,11 @@ namespace Activitat
                     Console.WriteLine(CalcularRectanguloCuadrado(numberOne, numberTwo));
                     break;
                 case 2:
+                    Console.WriteLine(MsgNumberOne);
+                    numberOne = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine(MsgNumberTwo);
+                    numberTwo = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine(CalcularRectanguloCuadrado(numberOne, numberTwo));
                     break;
                 case 3:
                     break;
